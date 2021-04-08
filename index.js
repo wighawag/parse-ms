@@ -1,5 +1,5 @@
 'use strict';
-module.exports = milliseconds => {
+export default function(milliseconds) {
 	if (typeof milliseconds !== 'number') {
 		throw new TypeError('Expected a number');
 	}
